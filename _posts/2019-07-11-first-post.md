@@ -8,6 +8,8 @@ I want to test the Github page using Jekyll update.
 Is it work well??
 I wonder about that.
 
-'''python
-print("Is it work?")
-'''
+```python
+def print_hi(name):
+  print("Hello", name)
+print_hi('World')
+```
