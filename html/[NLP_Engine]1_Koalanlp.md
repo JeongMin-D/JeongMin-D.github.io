@@ -28,12 +28,12 @@
 ```
 
     Requirement already satisfied: koalanlp in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (2.0.9)
-    Requirement already satisfied: jip~=0.9.13 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from koalanlp) (0.9.13)
     Requirement already satisfied: py4j~=0.10 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from koalanlp) (0.10.8.1)
+    Requirement already satisfied: jip~=0.9.13 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from koalanlp) (0.9.13)
     Requirement already satisfied: requests in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from jip~=0.9.13->koalanlp) (2.22.0)
-    Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from requests->jip~=0.9.13->koalanlp) (3.0.4)
     Requirement already satisfied: idna<2.9,>=2.5 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from requests->jip~=0.9.13->koalanlp) (2.8)
     Requirement already satisfied: certifi>=2017.4.17 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from requests->jip~=0.9.13->koalanlp) (2018.8.24)
+    Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from requests->jip~=0.9.13->koalanlp) (3.0.4)
     Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\bowlmin\anaconda3\envs\py35\lib\site-packages (from requests->jip~=0.9.13->koalanlp) (1.25.3)
     
 
@@ -724,7 +724,7 @@ ARR_Dict.getBaseEntries(lambda pos: pos.isNoun()) # 시스템 사전 항목
 
 
 
-    <generator object Dictionary.getBaseEntries at 0x0000018BEE87C678>
+    <generator object Dictionary.getBaseEntries at 0x0000021E2C275A40>
 
 
 
@@ -802,7 +802,7 @@ EJ_Dict.getBaseEntries(lambda pos: pos.isNoun()) # 시스템 사전 항목
 
 
 
-    <generator object Dictionary.getBaseEntries at 0x0000018BEE87CAF0>
+    <generator object Dictionary.getBaseEntries at 0x0000021E2C386D00>
 
 
 
@@ -880,7 +880,7 @@ HNN_Dict.getBaseEntries(lambda pos: pos.isNoun()) # 시스템 사전 항목
 
 
 
-    <generator object Dictionary.getBaseEntries at 0x0000018BEE87CE60>
+    <generator object Dictionary.getBaseEntries at 0x0000021E2C386DB0>
 
 
 
@@ -958,7 +958,7 @@ KKMA_Dict.getBaseEntries(lambda pos: pos.isNoun()) # 시스템 사전 항목
 
 
 
-    <generator object Dictionary.getBaseEntries at 0x0000018BEE87CDB0>
+    <generator object Dictionary.getBaseEntries at 0x0000021E2C386CA8>
 
 
 
@@ -1036,7 +1036,7 @@ KMR_Dict.getBaseEntries(lambda pos: pos.isNoun()) # 시스템 사전 항목
 
 
 
-    <generator object Dictionary.getBaseEntries at 0x0000018BEE8CA3B8>
+    <generator object Dictionary.getBaseEntries at 0x0000021E2C3DF468>
 
 
 
@@ -1114,7 +1114,7 @@ OKT_Dict.getBaseEntries(lambda pos: pos.isNoun()) # 시스템 사전 항목
 
 
 
-    <generator object Dictionary.getBaseEntries at 0x0000018BEE8CA7D8>
+    <generator object Dictionary.getBaseEntries at 0x0000021E2C3DF8E0>
 
 
 
@@ -2353,111 +2353,19 @@ print("---- 타 분석기 사전 불러오기 ----")
 
 
 ```python
-dict.importFrom(Dictionary(API.KKMA), False, lambda t: t.isNoun())
+# dict.importFrom(Dictionary(API.KKMA), False, lambda t: t.isNoun())
 ```
-
-    [1mpy4j.java_gateway[0m Callback Connection ready to receive messages
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    [1mpy4j.java_gateway[0m Received command c on object id p0
-    
 
 
 ```python
-print("# 사용자 사전 목록 (30개)")
+# print("# 사용자 사전 목록 (30개)")
 ```
-
-    # 사용자 사전 목록 (30개)
-    
 
 
 ```python
-for word in list(dict.getItems())[:30]:
-    print("%s (Tag=%s)" % (word[0], str(word[1])))
+# for word in list(dict.getItems())[:30]:
+#    print("%s (Tag=%s)" % (word[0], str(word[1])))
 ```
-
-    [1mpy4j.java_gateway[0m Received command g on object id p0
-    Exception ignored in: <function JavaObject.__init__.<locals>.<lambda> at 0x0000018BFAA6CE18>
-    Traceback (most recent call last):
-      File "C:\Users\BowlMin\Anaconda3\envs\py35\lib\site-packages\py4j\java_gateway.py", line 1322, in <lambda>
-        _garbage_collect_object and _garbage_collect_object(cc, id))
-      File "C:\Users\BowlMin\Anaconda3\envs\py35\lib\site-packages\py4j\java_gateway.py", line 626, in _garbage_collect_object
-        gateway_client.garbage_collect_object(target_id)
-      File "C:\Users\BowlMin\Anaconda3\envs\py35\lib\site-packages\py4j\java_gateway.py", line 949, in garbage_collect_object
-        "\ne\n")
-      File "C:\Users\BowlMin\Anaconda3\envs\py35\lib\site-packages\py4j\java_gateway.py", line 1014, in send_command
-        response = connection.send_command(command)
-      File "C:\Users\BowlMin\Anaconda3\envs\py35\lib\site-packages\py4j\java_gateway.py", line 1174, in send_command
-        self.socket.sendall(command.encode("utf-8"))
-    KeyboardInterrupt: 
-    [1mpy4j.java_gateway[0m Received command  on object id 
-    [1mpy4j.java_gateway[0m Closing down callback connection
-    
-
-    코알라NLP (Tag=NNP)
-    코모란 (Tag=NNP)
-    꼬꼬마 (Tag=NNP)
-    하동균 (Tag=NNP)
-    나비야 (Tag=NNP)
-    양화기 (Tag=NNG)
-    낭선창 (Tag=NNG)
-    검정바탕 (Tag=NNG)
-    세로인쇄 (Tag=NNG)
-    마당귀 (Tag=NNG)
-    수쇠 (Tag=NNG)
-    태양사 (Tag=NNG)
-    최고등 (Tag=NNG)
-    술생 (Tag=NNG)
-    털머위 (Tag=NNG)
-    프린터리본 (Tag=NNG)
-    전첩비 (Tag=NNG)
-    열중합 (Tag=NNG)
-    수쇄 (Tag=NNG)
-    보호국 (Tag=NNG)
-    보호구 (Tag=NNG)
-    스냅 (Tag=NNG)
-    술상 (Tag=NNG)
-    네댓새 (Tag=NNG)
-    승기 (Tag=NNG)
-    순성 (Tag=NNG)
-    술살 (Tag=NNG)
-    숙소 (Tag=NNG)
-    쇠족 (Tag=NNG)
-    염주말 (Tag=NNG)
-    
 
 #### 6-5 ETRI 분석기 사용 예시
 
@@ -2945,5 +2853,4 @@ finalize()
 ```
 
     [1mpy4j.java_gateway[0m Callback Server Shutting Down
-    [1mpy4j.java_gateway[0m Closing down callback connection
     
