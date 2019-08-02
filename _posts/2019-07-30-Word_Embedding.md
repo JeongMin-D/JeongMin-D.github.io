@@ -49,3 +49,7 @@ categories: NLP Deep_Learning Word2vec GloVe fasttext kor2vec ELMo
 * 언어표현 사전학습의 새로운 방법으로 그 의미는 큰 텍스트 코퍼스를 이용하여 범용목적의 언어이해 모델을 훈련시키는 것.
 * 자연언어 처리 태스크를 교육 없이 양방향으로 사전학습하는 첫 시스템.
 * word2vec이나 GloVe와 같이 문맥에 의존하지 않는 모델에서는, 어휘에 포함되는 각 단어마다 단어 삽입이라는 특징 표현을 생성.
+
+## source code
+[1.Word_Embedding(Eng)](https://jeongmin-d.github.io/NLP_LInk/[Deep_Learning]Word_Embedding(Eng).html)
+[2.Word_Embedding(Kor)](https://jeongmin-d.github.io/NLP_LInk/[Deep_Learning]Word_Embedding(Kor).html)
