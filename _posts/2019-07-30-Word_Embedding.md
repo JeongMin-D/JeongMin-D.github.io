@@ -53,4 +53,5 @@ categories: NLP Deep_Learning Word2vec GloVe fasttext kor2vec ELMo
 ## source code
 [1.Word_Embedding(Eng)](https://jeongmin-d.github.io/NLP_LInk/[Deep_Learning]Word_Embedding(Eng).html)
 <br>
+<br>
 [2.Word_Embedding(Kor)](https://jeongmin-d.github.io/NLP_LInk/[Deep_Learning]Word_Embedding(Kor).html)
