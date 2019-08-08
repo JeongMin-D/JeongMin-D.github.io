@@ -35,11 +35,11 @@ categories: NLP Deep_Learning Word2vec GloVe fasttext kor2vec ELMo
     -	가장 직관적이고 구현도 쉽지만, 성능이 떨어지는 알고리즘은 아니고 현재도 가장 중요한 알고리즘으로 분류됨.
     -	추천의 타입
       -	Personalized recommender(개인화 추천): 유저의 정보에 기반하여 자동으로 아이템 리스트를 추려냄.
-        	매칭되는 알고리즘: CF(Collaborative Filtering)
+        -	매칭되는 알고리즘: CF(Collaborative Filtering)
       -	Non-personalized recommender: rating 기반의 인기 상품이나 현재 상품 기준 AR(Association Rule) 순위 상품을 추천함. Cold Start Problem(개인화 추천 모델링을 위한 유저정보 혹은 아이템 정보가 부족한 상황)이 발생하는 상황이나 개인화추천이 잘 적용되지 않는 추천 영역에서 사용.
-        	매칭되는 알고리즘: AR(Association Rule)
+        -	매칭되는 알고리즘: AR(Association Rule)
       -	Attribute-based recommender: Contents 정보를 활용하여 추천하는 방법. Cold Start 문제를 해결하는 조금 더 세련된 방법.
-        	매칭되는 알고리즘: content based approach
+        -	매칭되는 알고리즘: content based approach
 ## 현재 추천 시스템의 동향
 -	과거와 기본적으로 다르지 않지만, 딥 러닝을 위시한 부분적으로 더욱 고도화된 알고리즘들이 적용되고 있으며, 하둡으로 대표되는 빅데이터 처리 플랫폼이 매우 안정화됨.
 -	통계 기반의 모델링:
