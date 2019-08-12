@@ -1,6 +1,6 @@
 ---
 title: "4.Recommender_System"
-date: 2019-07-30
+date: 2019-08-09
 categories: NLP Deep_Learning Word2vec Recommender_System
 ---
 
