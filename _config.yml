@@ -114,10 +114,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:h20141231@g-mail.hallym.ac.kr
+      # url: mailto:h20141231@g-mail.hallym.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://ses811195.wixsite.com/portfolio-min"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
