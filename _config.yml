@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "NLP_Engine"
 title_separator          : "-"
-name                     : "JeongMin-Daniel"
+name                     : "JeongMin"
 description              : "An amazing website."
 url                      : "https://JeongMin-D.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -106,18 +106,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "J25ngMin_Daniel"
+  name             : "Jeong Min"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an Hallym Univ. student."
-  location         : "Somewhere"
-  email            :
+  bio              : "삼정 KPMG 디지털 본부"
+  location         : "Chun-Cheon,Korea"
+  email            : "h20141231@g-mail.hallym.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      # url: mailto:h20141231@g-mail.hallym.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://ses811195.wixsite.com/portfolio-min"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/JeongMin-D/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
