@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "J25ngMin_Daniel"
+  name             : "Jeong Min"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an Hallym Univ. student."
-  location         : "Somewhere"
-  email            :
+  bio              : "삼정 KPMG 디지털 본부"
+  location         : "Chun-Cheon,Korea"
+  email            : "h20141231@g-mail.hallym.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
