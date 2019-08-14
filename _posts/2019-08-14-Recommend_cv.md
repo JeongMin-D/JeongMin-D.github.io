@@ -22,7 +22,8 @@ categories: NLP Deep_Learning Word2vec tokenizer Recommender_System
 - 사용자 입력 키워드와 이력서 키워드의 유사도를 판단하여 유사도가 높은 순서대로 사용자에게 추천.
 
 #### 사용 모듈
-
+- pdfminer
+- TextRank
 ### 2.
 
 #### 장점
