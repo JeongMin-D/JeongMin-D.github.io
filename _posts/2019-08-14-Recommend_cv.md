@@ -23,7 +23,7 @@ categories: NLP Deep_Learning Word2vec tokenizer Recommender_System
 
 #### 사용 모듈
 - pdfminer
-- TextRank
+- [TextRank](https://jeongmin-d.github.io/NLP_LInk/[summarize]TextRank.html)
 ### 2. 사용자 패턴 인식
 사용자가 선택하는 이력서들의 키워드나 특성을 파악하여 그 패턴에 따라 사용자에게 이력서를 추천해주는 시스템.
 
