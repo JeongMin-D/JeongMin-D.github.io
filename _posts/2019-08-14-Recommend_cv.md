@@ -59,7 +59,11 @@ categories: NLP Deep_Learning Word2vec tokenizer Recommender_System
 - 학습한 패턴에 따른 이력서 추천.
 
 #### 사용 모듈
-- 미완성
+- pytesseract
+- pdf2img
+- TextRank
+- Word2vec
+- opencv-python
 
 ### 2. 요약문, 키워드 추출 모듈
 - [TextRank](https://jeongmin-d.github.io/NLP_LInk/[summarize]TextRank.html)
