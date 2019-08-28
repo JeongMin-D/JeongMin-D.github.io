@@ -65,7 +65,7 @@ categories: NLP Deep_Learning Word2vec tokenizer Recommender_System
 - [OCR 모듈](https://jeongmin-d.github.io/nlp/deep_learning/word2vec/tokenizer/recommender_system/OCR/)
 - [TextRank](https://jeongmin-d.github.io/NLP_LInk/[summarize]TextRank.html)
 - [Word2vec](https://jeongmin-d.github.io/nlp/deep_learning/word2vec/Word2vec/)
-- opencv-python
+- [opencv-python](https://github.com/skvark/opencv-python)
 
 ### 2. 요약문, 키워드 추출 모듈
 - [TextRank](https://jeongmin-d.github.io/NLP_LInk/[summarize]TextRank.html)
