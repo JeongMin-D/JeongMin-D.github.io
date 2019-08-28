@@ -22,7 +22,7 @@ categories: NLP Deep_Learning Word2vec tokenizer Recommender_System
 - 사용자 입력 키워드와 이력서 키워드의 유사도를 판단하여 유사도가 높은 순서대로 사용자에게 추천.
 
 #### 사용 모듈
-- pdfminer(pdf 파일 바로 읽기)
+- [pdfminer](http://www.unixuser.org/~euske/python/pdfminer/index.html)
 - [OCR 모듈](https://jeongmin-d.github.io/nlp/deep_learning/word2vec/tokenizer/recommender_system/OCR/)
 - [TextRank](https://jeongmin-d.github.io/NLP_LInk/[summarize]TextRank.html)
 ### 2. 사용자 패턴 인식
@@ -40,10 +40,10 @@ categories: NLP Deep_Learning Word2vec tokenizer Recommender_System
 - 다음 이력서를 선택할 때, 자동으로 패턴에 따른 이력서를 추천.
 
 #### 사용 모듈
-- pdfminer(pdf 파일 바로 읽기)
+- [pdfminer](http://www.unixuser.org/~euske/python/pdfminer/index.html)
 - [OCR 모듈](https://jeongmin-d.github.io/nlp/deep_learning/word2vec/tokenizer/recommender_system/OCR/)
 - [TextRank](https://jeongmin-d.github.io/NLP_LInk/[summarize]TextRank.html)
-- Word2vec
+- [Word2vec](https://jeongmin-d.github.io/nlp/deep_learning/word2vec/Word2vec/)
 
 ### 3. 기존 합격자 이력서 데이터 학습 기반 추천 시스템
 기존 합격자들의 데이터를 분석하여 비슷한 패턴을 가진 이력서들을 우선순위로 추천.
@@ -61,7 +61,7 @@ categories: NLP Deep_Learning Word2vec tokenizer Recommender_System
 - 학습한 패턴에 따른 이력서 추천.
 
 #### 사용 모듈
-- pdfminer(pdf 파일 바로 읽기)
+- [pdfminer](http://www.unixuser.org/~euske/python/pdfminer/index.html)
 - [OCR 모듈](https://jeongmin-d.github.io/nlp/deep_learning/word2vec/tokenizer/recommender_system/OCR/)
 - [TextRank](https://jeongmin-d.github.io/NLP_LInk/[summarize]TextRank.html)
 - [Word2vec](https://jeongmin-d.github.io/nlp/deep_learning/word2vec/Word2vec/)
