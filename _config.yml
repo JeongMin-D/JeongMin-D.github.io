@@ -114,7 +114,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto: j25ng.py@gmail.com
+      url: "mailto: j25ng.py@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jeongmin-d.github.io/hallym_senior_j25ng/#/"
